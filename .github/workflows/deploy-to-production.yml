@@ -46,7 +46,7 @@ jobs:
     - name: Deploy to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@3.7.1
       with:
-        REPOSITORY_NAME: open-sdg-tutorials/sdg-production-data
+        REPOSITORY_NAME: PRODUCTION_ORGANIZATION/REPOSITORY_NAME
         ACCESS_TOKEN: ${{ secrets.token }}
         BRANCH: gh-pages
         FOLDER: _site
